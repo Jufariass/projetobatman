@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    color: #fff;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+.footer-navigation{
+    display: none;
+
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-coments {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'kdam thmor pro', sans-serif;
+    align-items: center;
+}
+
+.photos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.photos-card{
+    width: 90%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.photo{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    
+}
+.photo:hover{
+    transform: scale(1.09);
+} 
+.img-1{
+    background-image: url(https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg);
+    
+}
+.img-2{
+    background-image: url(https://i.insider.com/5f856bcdc255d800190b980a?width=700);
+    
+}
+.img-3{
+    background-image: url(https://midias.correiobraziliense.com.br/_midias/jpg/2022/01/20/675x450/1_26157815-7354644.jpg?20220120100834?20220120100834);
+    
+}
+.img-4{
+    background-image: url(https://eulorenaribeiro.files.wordpress.com/2022/03/the-batman-2.jpg?w=1024);
+    
+}
+.img-5{
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/3/2020/11/jeffrey_wright_commissioner_gordon_batman_dc-87bf1a7.jpg?quality=90&resize=620,414);
+    
+}
+.img-6{
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2022/02/Charada-em-The-Batman.jpg);
+}
+
+
+.img-7{
+    background-image: url(https://www.usatoday.com/gcdn/presto/2022/03/05/USAT/883c7e12-aaba-460c-9857-aece1f30b179-TBM-33717JO.jpg);
+    
+}
+.img-8{
+    background-image: url(https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/04/12/1797866254-the-batman-penguin-pinguim.jpg);
+    
+}
+.img-9{
+    background-image: url(https://fandomwire.com/wp-content/uploads/2023/12/the-batman-vfx-walking-from-fire-invert.webp);
+    
+}
+
+.cards-coments{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;        
+}
+
+.cards-persons{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    align-items: center;
+    font-family: 'kdam thmor pro', sans-serif;
+    color: #fff;
+    
+}
+
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50px;
+   
+
+}
