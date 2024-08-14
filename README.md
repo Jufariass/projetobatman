@@ -4,5 +4,5 @@
 
 #
 
- <img align="center" alt= "imagem"  src="https://cdn.discordapp.com/attachments/1272681613443993613/1273066074908131368/the-batman-elenco.jpeg.webp?ex=66bd42ac&is=66bbf12c&hm=47ff66c4d90434790d5a30560ad73ffda6443a2f9ea8219e743d307a9be89612&/hi.gif">
+ <img align="center" alt= "imagem"  src="https://cdn.discordapp.com/attachments/1272681613443993613/1273289207820976129/Captura_de_tela_2024-08-02_114754.png?ex=66be127b&is=66bcc0fb&hm=13448eb518cd52133742f3951adac1bce5debb584d35bfc1333adeca8f60339f&/hi.gif">
 </div>
